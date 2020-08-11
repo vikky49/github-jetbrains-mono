@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff2/JetBrainsMono-Light.woff2') format('woff2'),
+      url("chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff/JetBrainsMono-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'JetBrains Mono';
+    src: url('chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+      url("chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff/JetBrainsMono-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'JetBrains Mono';
+    src: url('chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
+      url("chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff/JetBrainsMono-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'JetBrains Mono';
+    src: url('chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff2/JetBrainsMono-Bold.woff2') format('woff2'),
+      url("chrome-extension://__MSG_@@dphnchoinckbknnflnbmbcngdlkdieib/JetBrainsMono/woff/JetBrainsMono-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+/* github */
+.highlight pre, .highlight .blob-code-inner {
+  font-family: 'JetBrains Mono' !important;
+}
+
+/* bitbucket */
+pre.source, .highlight pre {
+  font-family: 'JetBrains Mono' !important;
+}
+
+/* microsoft tfs */
+.vc-diff-viewer .text-diff-container, div.view-lines {
+  font-family: 'JetBrains Mono' !important;
+  font-feature-settings: "liga" 1 !important;
+}
