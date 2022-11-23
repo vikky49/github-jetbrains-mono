@@ -29,6 +29,12 @@
     font-weight: 700;
     font-style: normal;
   }
+
+/* gitlab */
+.diff-table.code, table.code, .root {
+  width: 100%;
+  font-family: 'JetBrains Mono' !important;
+} 
   
 /* github */
 .highlight pre, .highlight .blob-code-inner {
